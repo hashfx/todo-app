@@ -1,0 +1,340 @@
+h1{
+/*	font-family:"Arial Black", Gadget, sans-serif;*/
+/*	font-family:"Times New Romans", Gadget, sans-serif;*/
+	font-family:"Times New Roman", Gadget, sans-serif;
+    font-size: 36px;
+
+}
+body{
+	color:black;
+	background-color:white;
+	left-margin:10px;
+	right-margin:10px;
+}
+table{
+	width:95%;
+	border-collapse:collapse;
+	table-layout:fixed;
+}
+td
+{
+	border: rgba(224, 119, 70, 1) 2px solid;
+	word-wrap:break-word;
+}
+table#close{
+
+	table-layout:auto;
+	border-collapse:separate;
+	border-spacing: 5px 5px;
+	border:none;
+	vertical-align:top;
+}
+table.none
+{
+	border:none;
+	vertical-align:top;
+}
+table.none td
+{
+	border: none;
+}
+/*tr.row td{*/
+/*	text-decoration-style:wavy;*/
+
+
+
+input[type='text']
+{
+width: 200px;
+height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+padding: 8px;
+font-weight: 200;
+font-size: 20px;
+font-family: monotype corsiva;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+input[type='text']:hover
+{
+width: 220px;
+height: 32px;
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 8px;
+font-weight: 200;
+font-size: 25px;
+font-family: "Monotype Corsiva";
+box-shadow: 1px 1px 5px #CCC;
+}
+textarea
+{
+width: 200px;
+height: 45px;
+border-radius: 3px;
+border: 1px solid #CCC;
+padding: 8px;
+font-weight: 200;
+font-size: 20px;
+font-family: "Monotype Corsiva";
+box-shadow: 1px 1px 5px #CCC;
+overflow:hidden;
+resize: none;
+}
+textarea:hover
+{
+/*width: 200px;*/
+width: 220px;
+height: 50px;
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 8px;
+font-weight: 200;
+font-size: 21px;
+font-family: "Monotype Corsiva";
+box-shadow: 1px 1px 5px #CCC;
+}
+
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: gray;
+    font-family: "monotype corsiva", arial, sans-serif;
+    font-size: 22px;
+    border:1px solid darkgray;
+    /*border:1px solid black;*/
+    /*border:1px solid #ecf0f1;*/
+    background:transparent;
+    /*background:#ecf0f1;*/
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="date"]:hover{
+    font-size: 24px;
+}
+
+input[type="date"], focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+/* <Experiment> */
+#tasklists {
+  font-family: Arial, "Monotype Corsiva", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tasklists td, #tasklists th {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+#tasklists tr:nth-child(even){background-color: #f3e9fc;}
+
+#tasklists tr:hover {background-color: #dabcf6;}
+
+#tasklists th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #b478ed;
+  color: white;
+/* </Experiment> */
+
+}
+th.status{
+	width:5%;
+}
+th.name{
+	width:20%;
+}
+th.des{
+	width:40%;
+	padding:5px 5px 5px 5px;
+}
+th.date{
+	width:8%;
+}
+th.pr{
+	width:7%;
+}
+th.func1{
+	width:6%;
+}
+th.func2{
+	width:5%;
+}
+input[type=submit] {
+    width: 20em;  height: 2em;
+}
+/* # TODO: navbar edit*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+    background-color: lightskyblue;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.active {
+    background-color: dodgerblue;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: lightcyan;
+}
+
+/*ul .mypg{*/
+/*    float: right;*/
+/*    right: auto;*/
+/*    text-align: right;*/
+/*}*/
+
+
+select
+{
+width: 200px;
+height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+font-weight: 200;
+font-size: 18px;
+font-family: "Monotype Corsiva";
+box-shadow: 1px 1px 5px #CCC;
+}
+select:hover
+{
+width: 202px;
+height: 30px;
+border-radius: 3px;
+border: 1px solid #CCC;
+font-weight: 200;
+font-size: 18px;
+font-family: "Monotype Corsiva";
+box-shadow: 1px 1px 5px #CCC;
+}
+
+
+.glossy-button {
+    display: inline-block;
+    position: relative;
+    background-color: #AAA;
+    background-image: linear-gradient( /* chrome */
+      hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0) 50%,
+      hsla(0, 0%, 0%, 0.3) 50%, hsla(0, 0%, 100%, 0.2)
+    );
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 15px 30px;
+    text-shadow:
+      0 0 15px hsla(0, 0%, 100%, 1), /* bloom */
+      0 2px 4px hsla(0, 0%, 0%, 0.7); /* drop shadow */
+    border: none;
+    border-radius: 50px;
+    margin: 0px;
+    box-shadow:
+      inset 0 -5px 20px hsla(0, 0%, 0%, 0.4), /* top light */
+      inset 0 5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */
+      /* multiple light sources all */
+      -8px 8px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */
+      5px 18px 10px hsla(0, 0%, 0%, 0.2); /* drop shadow 2 */
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+  }
+
+
+
+  /* highlight */
+  .glossy-button:before {
+    /* content: ''; */
+    content: none;
+    display: block;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 5px;
+    height: 30px;
+    border-radius: 15px;
+    background: linear-gradient(
+      hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0) );
+  }
+  .glossy-button:hover {
+    transform: scale(1.05);
+    box-shadow:
+      inset 0 -5px 20px hsla(0, 0%, 0%, 0.4), /* top light */
+      inset 0 5px 20px hsla(0, 0%, 100%, 0.4), /* bottom shadow */
+      /* multiple light sources yall */
+      -12px 12px 5px hsla(0, 0%, 0%, 0.15), /* drop shadow 1 */
+      10px 25px 10px hsla(0, 0%, 0%, 0.2); /* drop shadow 2 */
+  }
+
+  .glossy-button--blue { background-color: #f36196; }
+  .glossy-button--red { background-color: #b478ed; }
+
+  .btn_del{
+      alignment: center;
+      background-color: #d11a2a;
+      border: none;
+      color: white;
+      padding: 12px 12px;
+      font-size: 14px;
+      cursor: pointer;
+  }
+  .btn_del:hover{
+      background-color: coral;
+  }
+
+  .btn_edit{
+      alignment: center;
+      background-color: #1a962a;
+      border: none;
+      color: white;
+      padding: 12px 12px;
+      font-size: 14px;
+      cursor: pointer;
+  }
+  .btn_edit:hover{
+      background-color: coral;
+  }
+
+
+
+
+
+
+
+
